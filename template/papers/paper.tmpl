@@ -103,15 +103,15 @@
           </div>
 
           <nav class="demo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-            <a href="{{.Prev.Link}}" class="demo-nav__button">
+            <a href="{{draw .Prev 1}}" class="demo-nav__button">
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
               </button>
-              {{.Prev.Title}}
+              {{draw .Prev 0}}
             </a>
             <div class="section-spacer"></div>
-            <a href="{{.Next.Link}}" class="demo-nav__button">
-              {{.Next.Title}}
+            <a href="{{draw .Next 1}}" class="demo-nav__button">
+              {{draw .Next 0}}
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_forward</i>
               </button>
