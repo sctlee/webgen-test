@@ -1,0 +1,15 @@
+title: Secret's blog
+link: http://podcast.example.com/
+description: >
+  aweseme description
+image: cover.jpg
+copyright: Copyright 2015 Secret - For Personal Use Only
+language: en
+author: Secret
+categories:
+  - Internet
+  - Software
+page: 10
+twitter: https://twitter.com/<your-id>
+github: https://github.com/sctlee
+linkedin: https://linkedin.com/in/<your-id>
