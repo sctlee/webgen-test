@@ -1,0 +1,187 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret&#39;s blog</title>
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    
+    
+
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+    #return-top {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-blog mdl-layout mdl-js-layout">
+      <header id="top" class="demo-nav mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+          
+          <span class="mdl-layout-title">Secret&#39;s blog</span>
+          
+          <div class="mdl-layout-spacer"></div>
+          
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">文章</a>
+            <a class="mdl-navigation__link" href="">播客</a>
+            <a class="mdl-navigation__link" href="">相册</a>
+            <a class="mdl-navigation__link" href="">关于</a>
+          </nav>
+        </div>
+      </header>
+      <div class="demo-nav mdl-layout__drawer">
+        <span class="mdl-layout-title">Secret's Blog</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">文章</a>
+          <a class="mdl-navigation__link" href="">播客</a>
+          <a class="mdl-navigation__link" href="">相册</a>
+          <a class="mdl-navigation__link" href="">关于</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card top-pic mdl-cell mdl-cell--8-col">
+            <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url(assets/01-first.jpg)">
+              <h3><a href="papers/1.html">My first episode</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>Secret Lee</strong>
+                <span>2015-07-16T20:00:41-07:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
+              <i class="material-icons mdl-color-text--white" role="presentation">add</i>
+              <span class="visuallyhidden">add</span>
+            </button>
+            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+              <img alt="logo" src="img/avatar.jpeg">
+              +1,337
+            </div>
+            <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+              <div>
+                <strong>The Newist</strong>
+              </div>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+                <li class="mdl-menu__item mdl-js-ripple-effect">About</li>
+                <li class="mdl-menu__item mdl-js-ripple-effect">Message</li>
+                <li class="mdl-menu__item mdl-js-ripple-effect">Favorite</li>
+                <li class="mdl-menu__item mdl-js-ripple-effect">Search</li>
+              </ul>
+              <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">more_vert</i>
+                <span class="visuallyhidden">show menu</span>
+              </button>
+            </div>
+          </div>
+          
+          
+          <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url(assets/02-first.jpg)">
+              <h3><a href="papers/2.html">My second episode</a></h3>
+            </div>
+            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+              Hello world! this is my second episode.
+
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>Secret Lee</strong>
+                <span>2015-07-18T20:00:41-07:00</span>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3 class="quote"><a href="entry.html">I couldn’t take any pictures but this was an amazing thing…</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <nav class="demo-nav mdl-cell mdl-cell--12-col">
+            <div class="section-spacer"></div>
+            <a href="entry.html" class="demo-nav__button" title="show more">
+              More
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">arrow_forward</i>
+              </button>
+            </a>
+          </nav>
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <span>made by <strong>Sctlee</strong></span>
+            <p>Copyright © Your Company 2015. All Rights Reserved</p>
+            
+          </div>
+          <div class="mdl-mini-footer--right-section">
+            <button class="mdl-mini-footer--social-btn social-btn__share">
+              <i class="material-icons" role="presentation">settings</i>
+              <span class="visuallyhidden">share</span>
+            </button>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <a href="#top" id="return-top" class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-color--grey">
+      <i class="material-icons">keyboard_arrow_up</i>
+    </a>
+    <script src="js/material.min.js"></script>
+  </body>
+  <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+      var link = el.querySelector('a');
+      if(!link) {
+        return;
+      }
+      var target = link.getAttribute('href');
+      if(!target) {
+        return;
+      }
+      el.addEventListener('click', function() {
+        location.href = target;
+      });
+    });
+  </script>
+</html>
